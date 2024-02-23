@@ -18,7 +18,7 @@ body{
 }
 
 .card img{
-    width: 200px;
+    width: 250px;
     margin: 5px;
 }
 
@@ -39,4 +39,10 @@ body{
     border-radius: 8px;
     border:1px solid transparent;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1rem;
 }
+.cont-button button:hover{
+    background-color: turquoise;
+    cursor: pointer;
+    
+}   
