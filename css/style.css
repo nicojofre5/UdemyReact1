@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(#0c0b0b, #272c28);
     color: white;min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .cont-card{
     display: flex;
@@ -26,4 +27,16 @@ body{
     border-radius: 5px;
     padding: 15px;
     background-color: rgba(136, 146, 155, 0.354);
+}
+.cont-button{
+    padding: 15px;
+    margin:10px 5px 0px;
+}
+.cont-button button{
+    padding: 4px 10px;
+    background-color: rgba(5, 121, 183, 0.961);
+    color: white;
+    border-radius: 8px;
+    border:1px solid transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
