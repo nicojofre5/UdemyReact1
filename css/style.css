@@ -91,6 +91,32 @@ footer{
     background-color: #0c0212;
     
 }
+/* form  registrar */
+
+.form-registrar input{
+    display: block;
+}
+.form-registrar label{
+    display: inline-block;
+    padding: 4px 0px;
+    
+}
+.enviar-form{
+    background-color: rgba(5, 121, 183, 0.961);
+    color: white;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.contenedorform ,.cont-button-submit{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    padding: 25px;
+}
 
 footer h4>a{
     color: rgb(220, 152, 241);
