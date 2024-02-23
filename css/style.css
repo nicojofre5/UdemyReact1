@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 ul{
     list-style: none;
 }
@@ -93,12 +94,18 @@ footer{
 }
 /* form  registrar */
 
-.form-registrar input{
+.form-registrar input ,.form-login input{
     display: block;
 }
-.form-registrar label{
+.form-login{
+    background-color: #0c0212;
+    padding: 50px 80px 10px;
+    border-radius: 15px;
+}
+.form-registrar label, .form-login label{
     display: inline-block;
     padding: 4px 0px;
+    
     
 }
 .enviar-form{
@@ -109,15 +116,23 @@ footer{
     border-radius: 5px;
     margin: 10px;
 }
-.contenedorform ,.cont-button-submit{
+.contenedorform ,.cont-button-submit,.cont-gral-form{
     display: flex;
     justify-content: center;
-}
-h1{
-    text-align: center;
-    padding: 25px;
+    padding: 10px 0px 40px;
 }
 
+.cont-gral-form{
+    padding:130px;
+}
+.cont-form h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.cont-form{
+    padding: 70px 40px 0px;
+}
 footer h4>a{
     color: rgb(220, 152, 241);
 }
