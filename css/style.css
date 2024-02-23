@@ -10,15 +10,16 @@ a{
     text-decoration: none;
 }
 body{
-    background: linear-gradient(#0c0b0b, #272c28);
-    color: white;min-height: 100vh;
+    background: rgb(23, 23, 23);
+    color: white;
+    min-height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Nav bar */
 
 .nav-bar{
-    background-color: rgb(38, 38, 38);
+    background-color: #0c0212;
   
 }
 .menu{
@@ -75,9 +76,25 @@ body{
 .cont-button button:hover{
     background-color: turquoise;
     cursor: pointer;
-    
 }
 #cont-aviso{
     padding: 20px 5px 0px;
     font-weight: bold;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 35px;
+    margin:110px 0px 0px;
+    text-align: center;
+    background-color: #0c0212;
+    
+}
+
+footer h4>a{
+    color: rgb(220, 152, 241);
+}
+footer h4, footer p {
+    display: inline-block;
 }
